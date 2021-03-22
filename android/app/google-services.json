@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "413365259348",
+    "project_id": "game-links-app-7e99a",
+    "storage_bucket": "game-links-app-7e99a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413365259348:android:5eda7706e192c46dd531c1",
+        "android_client_info": {
+          "package_name": "com.ayumu.game_links_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413365259348-63884koabh3kscclbpdtr167rco2dmh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnhjdi8zI_-1IkvPB6y8JRCsA8glCTwkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413365259348-63884koabh3kscclbpdtr167rco2dmh7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "413365259348-qheeu8895r2f0cp3uguqb4k9ee49od8m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ayumu.gameLinksApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
