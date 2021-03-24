@@ -5,7 +5,7 @@ class FindUsersScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ユーザーorグループ検索'),
+        title: const Text('ユーザーから探す'),
       ),
       body: const Center(child: Text('ユーザーまたはコミュニティを検索する画面')),
     );

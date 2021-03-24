@@ -6,7 +6,6 @@ import 'package:game_links_app/screens/post/post_screen.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
-  HomeScreen();
   final int currentIndex = 0;
 
   @override
@@ -17,19 +16,6 @@ class HomeScreen extends StatelessWidget {
         builder: (context, homeScreenModel, child) {
           return Scaffold(
             body: homeScreenBody(context),
-            floatingActionButton: FloatingActionButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute<void>(
-                    builder: (context) => MyPageScreen(),
-                    fullscreenDialog: true,
-                  ),
-                );
-              },
-              tooltip: 'Find',
-              child: const Icon(Icons.search),
-            ),
             bottomNavigationBar: BottomNavigationBar(
               items: bottomNavBarItems,
               currentIndex: homeScreenModel.currentIndex,
