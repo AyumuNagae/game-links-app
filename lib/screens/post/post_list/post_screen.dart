@@ -19,6 +19,7 @@ class PostScreen extends StatelessWidget {
             ),
           );
         },
+        child: Icon(Icons.add),
       ),
     );
   }

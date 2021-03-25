@@ -28,7 +28,7 @@ class MyPageMenu extends StatelessWidget {
           children: [
             Icon(
               icon,
-              color: Colors.black12,
+              color: Colors.black,
               size: 22,
             ),
             SizedBox(width: 20),
