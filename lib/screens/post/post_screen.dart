@@ -5,7 +5,7 @@ class PostScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('投稿'),
+        title: const Text('投稿a'),
       ),
       body: const Center(child: Text('投稿ページ')),
     );
