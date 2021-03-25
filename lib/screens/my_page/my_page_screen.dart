@@ -6,9 +6,48 @@ class MyPageScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('マイページ'),
+          title: Text('マイページ'),
         ),
-        body: const Center(child: Text('マイページの画面')),
+        body: SingleChildScrollView(
+          padding: EdgeInsets.symmetric(vertical: 20),
+          child: Align(
+            alignment: Alignment.center,
+            child: Column(
+              children: [
+                SizedBox(
+                  height: 115,
+                  width: 115,
+                  child: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      CircleAvatar(
+                        backgroundImage: AssetImage("images/ayumu.jpeg"),
+                      ),
+                      Positioned(
+                        right: -16,
+                        bottom: 0,
+                        child: SizedBox(
+                          height: 46,
+                          width: 46,
+                          child: TextButton(
+                              child: Icon(Icons.camera_alt_outlined),
+                              onPressed: () {},
+                              style: TextButton.styleFrom(
+                                primary: Colors.white,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(50),
+                                  side: BorderSide(color: Colors.white),
+                                ),
+                              )),
+                        ),
+                      )
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             Navigator.push(
