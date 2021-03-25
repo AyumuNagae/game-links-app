@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:game_links_app/screens/chat/chat_screen.dart';
 import 'package:game_links_app/screens/home/home_screen_model.dart';
 import 'package:game_links_app/screens/my_page/my_page_screen.dart';
-import 'package:game_links_app/screens/post/post_screen.dart';
+import 'package:game_links_app/screens/post/post_list/post_screen.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {

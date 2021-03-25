@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:game_links_app/screens/find_users/find_users_screen.dart';
-
 import 'my_page_menu.dart';
 
 class MyPageScreen extends StatelessWidget {
@@ -49,17 +48,17 @@ class MyPageScreen extends StatelessWidget {
                 SizedBox(height: 20),
                 MyPageMenu(
                   text: "My Account",
-                  icon: Icon(Icons.person),
+                  icon: Icons.person,
                   press: () => {},
                 ),
                 MyPageMenu(
                   text: "Settings",
-                  icon: Icon(Icons.settings),
+                  icon: Icons.settings,
                   press: () {},
                 ),
                 MyPageMenu(
                   text: "Log Out",
-                  icon: Icon(Icons.logout),
+                  icon: Icons.logout,
                   press: () {},
                 ),
               ],

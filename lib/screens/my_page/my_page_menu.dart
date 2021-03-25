@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '';
 
 class MyPageMenu extends StatelessWidget {
   const MyPageMenu({
@@ -9,27 +8,28 @@ class MyPageMenu extends StatelessWidget {
     this.press,
   }) : super(key: key);
 
-  final String text, icon;
+  final String text;
+  final IconData icon;
   final VoidCallback press;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+      padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
       child: TextButton(
         style: TextButton.styleFrom(
           padding: EdgeInsets.all(20),
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
-          primary: Colors.white,
+          primary: Colors.black,
         ),
         onPressed: press,
         child: Row(
           children: [
             Icon(
               icon,
-              color: Color(Colors.red),
-              width: 22,
+              color: Colors.black12,
+              size: 22,
             ),
             SizedBox(width: 20),
             Expanded(child: Text(text)),
