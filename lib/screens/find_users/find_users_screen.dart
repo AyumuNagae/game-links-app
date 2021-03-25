@@ -7,7 +7,7 @@ class FindUsersScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('ユーザーから探す'),
       ),
-      body: const Center(child: Text('ユーザーまたはコミュニティを検索する画面')),
+      body: const Center(child: Text('ユーザーを検索する画面')),
     );
   }
 }
